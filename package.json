@@ -1,6 +1,6 @@
 {
   "name": "vue-yup-wrapper-reactive",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "type": "module",
   "description": "Vue 3 composable plugin that integrates Yup validation with Vue reactive system for easy and type-safe form validation",
   "main": "dist/index.js",
