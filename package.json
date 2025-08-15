@@ -1,0 +1,64 @@
+{
+  "name": "vue-yup-wrapper-reactive",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Vue 3 composable plugin that integrates Yup validation with Vue reactive system for easy and type-safe form validation",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src --ext .ts,.vue",
+    "lint:fix": "eslint src --ext .ts,.vue --fix",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "yup",
+    "validation",
+    "form",
+    "reactive",
+    "composable",
+    "typescript"
+  ],
+  "author": "Rizky Putra Ednar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ednar28/vue-yup-wrapper-reactive.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ednar28/vue-yup-wrapper-reactive/issues"
+  },
+  "homepage": "https://github.com/ednar28/vue-yup-wrapper-reactive#readme",
+  "peerDependencies": {
+    "vue": "^3.0.0",
+    "yup": "^1.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "eslint": "^8.54.0",
+    "rollup": "^4.6.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.0",
+    "vitest": "^3.2.4",
+    "vue": "^3.3.0",
+    "yup": "^1.3.0"
+  }
+}
